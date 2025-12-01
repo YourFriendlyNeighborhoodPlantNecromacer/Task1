@@ -9,3 +9,15 @@ bool czy_pierwsza(int n){
 
 	return true;
 }
+
+int main(){
+	std::cout << "Jaką liczbę chcesz sprawdzić?" << std::endl;
+	int n;
+	std::cin >> n;
+	if(czy_pierwsza(n)){
+		std::cout << "Jest pierwsza!" << std::endl;
+	} else { 
+		std::cout << "Nie jest pierwsza!" << std::endl;
+	}
+
+}
