@@ -6,3 +6,11 @@ int silnia(int n){
 	}
 	return silnia(n-1) * n;
 }
+
+int main(){
+	std::cout << "Jakiej liczby chcesz silnię?" << std::endl;
+	int n;
+	std::cin >> n;
+	std::cout << silnia(n) << std::endl;
+	return 0;
+}
